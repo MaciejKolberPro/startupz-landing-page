@@ -1,0 +1,22 @@
+.footer {
+    padding: 9rem 0rem 12rem 0rem;
+    background-color: #FBFBFA;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 40rem 30rem 40rem 10rem;
+    gap: 0rem;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-rows: 6rem 14rem;
+}
+
+.img-social {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0rem;
+    padding: 0rem;
+}

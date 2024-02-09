@@ -1,0 +1,59 @@
+.works {
+    padding-top: 11.5rem;
+    padding-bottom: 3rem;
+    background-color: transparent;
+}
+
+.works-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3rem;
+    place-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0rem;
+    gap: 2rem;
+}
+
+.card {
+    width: 38.8rem;
+    height: 50.9rem;
+    border-radius: 3rem;
+    background-color: #FFFFFF;
+    box-shadow: 0rem 0.8rem 3.5rem 0rem #BBA98E26;
+    padding: 2rem 10rem 2.5rem 10rem;
+    margin: 0rem;
+    display: grid;
+    place-items: center;
+}
+
+.img-card {
+    height: 24.4rem;
+    margin: 2.5rem 0rem 0rem 0rem;
+}
+
+.btn-card {
+    cursor: pointer;
+    width: 10.7rem;
+    height: 4.5rem;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+    border-radius: 3.25rem;
+    border: solid 0.1rem #46B8C8;
+    background-color: transparent;
+    font-family: 'Circular Std';
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.001em;
+    color: #46B8C8;
+    transition: color 0.5s ease, border-color 0.4s ease;
+}
+
+.btn-card:hover {
+    border-color: #FB8958;
+    color: #FB8958;
+}

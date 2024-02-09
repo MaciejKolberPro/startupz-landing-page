@@ -1,0 +1,31 @@
+.values {
+    padding-top: 15rem;
+    padding-bottom: 17.5rem;
+    background-color: #FBFAFA;
+}
+
+.values-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 7rem;
+    align-items: center;
+}
+
+.values-sub-container-1 {
+    display: grid;
+    grid-template-columns: auto 12rem;
+    gap: 0rem;
+}
+
+.values-sub-container-2 {
+    display: grid;
+    grid-template-columns: 55% auto;
+    padding-right: 8rem;
+    gap: 10rem;
+}
+
+.img-bulb {
+    width: 9rem;
+    height: 10.8rem;
+    margin: 1.5rem;
+}

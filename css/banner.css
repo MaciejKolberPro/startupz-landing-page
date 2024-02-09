@@ -1,0 +1,46 @@
+.banner {
+    padding-top: 11.5rem;
+    padding-bottom: 11.5rem;
+    background-color: #FBFAFA;
+}
+
+.banner-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: auto;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.img-man1 {
+    width: 31.8rem;
+    height: 31.9rem;
+}
+
+.img-man2 {
+    width: 29.1rem;
+    height: 31.9rem;
+}
+
+.btn-banner {
+    cursor: pointer;
+    height: 4.5rem;
+    width: 24.3rem;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+    border-radius: 3.25rem;
+    border: solid 0.1rem #46B8C8;
+    background-color: #46B8C8;
+    font-family: 'Circular Std';
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.001rem;
+    color: #FFFFFF;
+    transition: border 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-banner:hover {
+    border: solid 0.1rem #FB8958;
+    background-color: #FB8958;
+}
+

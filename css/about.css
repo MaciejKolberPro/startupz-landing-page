@@ -1,0 +1,31 @@
+.about {
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+    background-color: #FBFAFA;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about-sub-container-1 {
+    display: grid;
+    grid-template-columns: auto 15.5rem;
+    gap: 0rem;
+}
+
+.about-sub-container-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-right: 7rem;
+    gap: 10rem;
+}
+
+.img-question {
+    width: 7.5rem;
+    height: 8.8rem;
+    margin: 2.5rem 4rem 2.5rem 4rem;
+}

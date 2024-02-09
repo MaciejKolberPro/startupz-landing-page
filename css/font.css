@@ -1,0 +1,124 @@
+.a {
+    font-family: 'Circular Std';
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.5rem;
+    letter-spacing: -0.001rem;
+}
+
+.h-1 {
+    font-family: 'Circular Std';
+    font-size: 8.5rem;
+    font-weight: 700;
+    line-height: 8.5rem;
+    letter-spacing: -0.002rem;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.h-2 {
+    font-family: 'Circular Std';
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    letter-spacing: -0.002rem;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.h-3 {
+    font-family: 'Circular Std';
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: -0.002rem;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.h-4 {
+    font-family: 'Circular Std';
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -0.001em;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.h-5 {
+    font-family: 'Circular Std';
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: -0.001em;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.h-6 {
+    font-family: 'Circular Std';
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0rem;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.p-1 {
+    font-family: 'Circular Std';
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    letter-spacing: -0.001em;
+    text-align: center;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.p-2 {
+    font-family: 'Circular Std';
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.8rem;
+    letter-spacing: -0.001em;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.p-3 {
+    font-family: 'Circular Std';
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: -0.001rem;
+    margin: 2.5rem 0rem 2.5rem 0rem;
+}
+
+.p-4 {
+    font-family: 'Roboto';
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: -0.001rem;
+    margin: 3.5rem 0rem 3.5rem 0rem;
+}
+
+.p-5-24 {
+    font-family: 'Circular Std';
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0rem;
+    margin: 0rem;
+}
+.p-5-30 {
+    font-family: 'Circular Std';
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    letter-spacing: 0rem;
+    margin: 0rem;
+}
+
+.p-6 {
+    font-family: 'Circular Std';
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: -0.001em;
+    margin: 0rem;
+}

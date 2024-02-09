@@ -1,0 +1,98 @@
+.contact {
+    padding: 3.5rem 0rem 0rem 0rem;
+    background-color: #FFC351;
+}
+
+.mail-box {
+    width: 43rem;
+    height: 49rem;
+    border-radius: 1rem;
+    background-color: #F3F3F3;
+    box-shadow: 0rem 0.8rem 3.5rem 0rem #BBA98E26;
+    padding: 7rem 4rem 4rem 4rem;
+    margin: 0rem 0rem 7rem 0rem;
+}
+
+.rocket-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2.5rem;
+    align-items: end;
+    /* justify-content: space-between;      */
+}
+
+.img-rocket {
+    width: 66.8rem;
+    height: 54.5rem;
+
+}
+
+.input-text {
+    width: 39.9rem;
+    height: 5.4rem;
+    border-color: transparent;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.8rem 3.5rem 0rem #BBA98E26;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0rem;
+    color: #3D4F5C;
+}
+
+.input-textarea {
+    width: 39.9rem;
+    height: 22.5rem;
+    border-color: transparent;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.8rem 3.5rem 0rem #BBA98E26;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0rem;
+    color: #3D4F5C;
+    resize: none;
+}
+
+.input-text::placeholder, .input-textarea::placeholder {
+    color: #939393;
+}
+
+.input-text:focus, .input-textarea:focus {
+    outline: 0.1rem dashed #3D4F5C;
+}
+
+.invalid {
+    outline: 0.1rem dashed #FB8958; /* Example of custom validation style */
+}
+
+
+.btn-submit:hover {
+    border: solid 0.1rem rgba(251, 137, 88, 0.8);
+    background-color: rgba(251, 137, 88, 0.8);
+}
+
+.btn-submit {
+    cursor: pointer;
+    height: 4.5rem;
+    width: 24.3rem;
+    margin: 3rem 0rem 3rem 0rem;
+    border-radius: 3.25rem;
+    border: solid 0.1rem #3D4F5C;
+    background-color: #3D4F5C;
+    font-family: 'Circular Std';
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.001rem;
+    color: #FFFFFF;
+    transition: border 0.2s ease, background-color 0.2s ease;
+}

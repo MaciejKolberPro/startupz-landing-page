@@ -1,0 +1,127 @@
+:root {
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../assets/fonts/Circular-Std.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto.ttf') format('truetype');
+}
+
+@media screen and (max-width: 3840px) {
+    :root {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 3200px) {
+    :root {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 2736px) {
+    :root {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    :root {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 2256px) {
+    :root {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    :root {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    :root {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    :root {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    :root {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    :root {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    :root {
+        font-size: 7.5px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    :root {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        font-size: 4px;
+    }
+}
+
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-line {
+    width: 5rem;
+    border: none;
+    height: 0.1rem;
+    background-color: #3D4F5C;
+}
+
+.place-center {
+    display: grid;
+    place-items: center;
+}
+
+.img-logo {
+    cursor: pointer;
+    width: 17.9rem;
+    height: 4.3rem;
+}
+
+.img-logo-sm {
+    cursor: pointer;
+    width: 15rem;
+    height: 3.6rem;
+}
