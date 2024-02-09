@@ -55,16 +55,31 @@
 }
 
 @keyframes shake {
-    0%, 100% { transform: translateY(0); }
-    10%, 90% { transform: translateY(-0.5rem); }
-    20%, 80% { transform: translateY(0.5rem); }
-    30%, 70% { transform: translateY(-0.4rem); }
-    40%, 60% { transform: translateY(0.4rem); }
-    50% { transform: translateY(0); }
-}
+    
 
-.shake-animation {
-    animation: shake 1.3s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+    0%  { transform: translateY(0rem); }
+    9.5%  { transform: translateY(0.05rem); }
+    18%  { transform: translateY(0.1rem); }
+    25.5%  { transform: translateY(0.15rem); }
+    32%  { transform: translateY(0.2rem); }
+    37.5%  { transform: translateY(0.25rem); }
+    42%  { transform: translateY(0.3rem); }
+    45.5%  { transform: translateY(0.35rem); }
+    48%  { transform: translateY(0.4rem); }
+    49.5%  { transform: translateY(0.45rem); }
+    
+    50%  { transform: translateY(0.5rem); }
+
+    50.5%  { transform: translateY(0.45rem); }
+    52%  { transform: translateY(0.4rem); }
+    54.5% { transform: translateY(0.35rem); }
+    58% { transform: translateY(0.3rem); }
+    62.5% { transform: translateY(0.25rem); }
+    68% { transform: translateY(0.2rem); }
+    74.5% { transform: translateY(0.15rem); }
+    82% { transform: translateY(0.1rem); }
+    90.5% { transform: translateY(0.05rem); }
+    100% { transform: translateY(0rem); }
 }
 
 .msg-chatbot {
@@ -77,6 +92,7 @@
     background-color: #46B8C8;
     border-radius: 3.25rem 3.25rem 0rem 3.25rem;
     box-shadow: 0rem 0.4rem 0.4rem 0rem #1D4B5240;
+    animation: shake 1s ease-out infinite;
 }
 
 .msg-chatbot span {

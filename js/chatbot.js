@@ -2,11 +2,6 @@ const chatbotBtn = document.querySelector('.btn-chatbot');
 const closeBtn = document.querySelector('.btn-cross');
 const chatbotMsg = document.querySelector('.msg-chatbot');
 
-// Shake the message box
-setInterval(() => {
-    chatbotMsg.classList.toggle('shake-animation');
-}, 1500);
-
 // Close the bot message
 closeBtn.addEventListener('click', () => {
     closeBtn.style.transition = 'opacity 0.2s ease';
