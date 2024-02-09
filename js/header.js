@@ -3,7 +3,7 @@ const navbarStartupz = document.getElementById('navbar-startupz');
 const navbarContact = document.getElementById('navbar-contact');
 const navbarBtn = document.getElementById('navbar-btn');
 const logoImg = document.getElementById('img-logo');
-logoImg.style.transition = 'width 0.5s ease, height 0.5s ease, transform 0.5s ease';
+// logoImg.style.transition = 'width 0.5s ease, height 0.5s ease, transform 0.5s ease';
 
 const handleScroll = () => {
     if (window.scrollY > 0) {

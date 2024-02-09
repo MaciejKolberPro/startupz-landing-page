@@ -13,6 +13,10 @@
     background-color: rgba(61, 79, 92, 0.85);
 }
 
+.img-logo {
+    transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+}
+
 .navbar-container {
     display: grid;
     grid-template-columns: auto 11rem 10.7rem 18.5rem;
