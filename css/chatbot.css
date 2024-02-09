@@ -55,8 +55,6 @@
 }
 
 @keyframes shake {
-    
-
     0%  { transform: translateY(0rem); }
     9.5%  { transform: translateY(0.05rem); }
     18%  { transform: translateY(0.1rem); }
@@ -67,9 +65,7 @@
     45.5%  { transform: translateY(0.35rem); }
     48%  { transform: translateY(0.4rem); }
     49.5%  { transform: translateY(0.45rem); }
-    
     50%  { transform: translateY(0.5rem); }
-
     50.5%  { transform: translateY(0.45rem); }
     52%  { transform: translateY(0.4rem); }
     54.5% { transform: translateY(0.35rem); }
